@@ -1,0 +1,36 @@
+.body{
+    margin:20px 100px;
+
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+}
+.links{
+    link-style-type:none;
+    display: flex;
+    gap:30px;
+    font: size 1.2em;
+}
+.banner{
+    border: 2px solid black;
+    display: flex;
+}
+.banner 
+
+
+
+.menu{
+    display:none;
+    font-size: 2.em;
+}
+@media (min-width:0px) and (max-width:1000px) {
+    .menu{
+        display:black;
+    }
+    .link{
+        display:none;
+        
+    }
+}
+

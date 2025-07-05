@@ -1,0 +1,41 @@
+/*.box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+/*mobile
+@media(min-width:500px) and (max-width:1000px){
+    .box{
+        width:100px;
+        background-color:red(0,0,0);
+        
+    }
+        
+    }
+    @media(min-width:100px) and (max-width:100px){
+        .box{
+            width:100px;
+            background-color: black;
+        }
+    }*/
+    .container{
+        display: flex;
+        gap: 50px;
+        flex-direction: row;
+    }
+    .card{
+        width:200px;
+        height:200px;
+        background-color:rgb(179,179,77);
+    }
+    @media(min-width:0px) and (max-width:500px) {
+        .container{
+            flex-direction: column;
+            align-items: center;
+        }
+        .card{
+            width:100%;
+        }
+    }
+
+   

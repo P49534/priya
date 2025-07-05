@@ -1,0 +1,26 @@
+.container {
+    width:100vw;
+    height:100vh;
+    background-color: black;
+    display:grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 50px auto 50px ;
+    gap: 10px;
+
+}
+nav{
+    background-color: aqua;
+    grid-column: start:1;
+    grid-column:end:3;
+}
+aside {
+    background-color: brown;
+}
+main{
+    background-color: chartreuse;
+}
+footer{
+    background-color: burlywood;
+    grid-column: start:1;
+    grid-column:end:3;
+}
